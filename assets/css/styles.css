@@ -103,26 +103,22 @@ nav ul li {
 /* Hero section */
 .hero {
   display: flex;
-  flex-direction: column; /* Stack items vertically on smaller screens */
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-  text-align: center; /* Center text on all screens */
 }
 
 .hero img {
-  height: auto; /* Allow the image to resize proportionally */
-  width: 100%; /* Make the image width 100% of its container */
-  max-width: 14rem; /* Set a maximum width for the image */
+  height: 23rem;
+  width: 16rem;
+  border: 5px solid var(--primary-color);
   border-radius: 20%;
-  border: 8px solid gray;
 }
 
 .bio {
-  width: 100%; /* Make the bio box width 100% of its container */
-  max-width: 25rem; /* Set a maximum width for the bio box */
+  width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -135,13 +131,6 @@ nav ul li {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
-}
-
-/* Media query for smaller screens (e.g., mobile devices) */
-@media screen and (max-width: 768px) {
-  .hero {
-    padding: 2rem; /* Add some spacing around the content */
-  }
 }
 /* Hero section ends */
 
@@ -382,7 +371,7 @@ footer {
   }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: 2rem;
     width: 20.5rem;
   }
 
