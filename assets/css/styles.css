@@ -113,7 +113,7 @@ nav ul li {
 .hero img {
   height: 20rem;
   width: 14rem;
-  border-radius: 45%;
+  border-radius: 20%;
   border: 8px solid gray;
 }
 
@@ -173,48 +173,48 @@ nav ul li {
 }
 /* Skills section ends */
 
-/* Projects section */
-.projects {
+/* Resume section */
+.resume {
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
 }
 
-.project-pic {
+.resume-pic {
   width: 65%;
   height: 60%;
 }
 
-.projects-container {
+.resume-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projects-title {
+.resume-title {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.project-container {
+.resume-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
 
-.project-container p {
+.resume-container p {
   padding: 0.4rem;
 }
 
-.project-title {
+.resume-title {
   margin-bottom: var(--bottom-margin);
 }
 
-.project-details {
+.resume-details {
   margin-bottom: var(--bottom-margin);
 }
 
-/* Projects section ends */
+/* Resume section ends */
 
 /* Contacts section */
 .contact {
@@ -327,7 +327,7 @@ footer {
   margin: 10px;
 }
 
-.project-card {
+.resume-card {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
@@ -398,11 +398,11 @@ footer {
     height: 5.25rem;
   }
 
-  .projects-container {
+  .resume-container {
     flex-direction: column;
   }
 
-  .project-container {
+  .resume-container {
     width: 20.875rem;
   }
 
@@ -421,7 +421,7 @@ footer {
     width: 18.3rem;
   }
 
-  .project-container {
+  .resume-container {
     width: 17.875rem;
   }
 
